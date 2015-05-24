@@ -1,0 +1,29 @@
+{
+  "name": "cont-type",
+  "version": "1.0.0",
+  "description": "Generate and parse HTTP Content-Type header according to RFC 7231. This module can parse invalid mime type without breaking. You can obtain mime type and charset if available",
+  "main": "cont-type.js",
+"author": {
+    "name": "Njoku Chukwudi Richard",
+    "email": "richardnjoku@aol.com"
+  },
+  "main":"index.js",
+  "keywords": [
+    "Content-type",
+    "mime-type",
+    "charset"
+  ],
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/ncrichards/cont-type.git"
+  },
+    "files": [
+	"LICENSE",
+    "README.md",
+	"index.js"
+  ],
+    "engines": {
+    "node": ">= 0.6"
+  },
+  "license": "MIT"
+}
